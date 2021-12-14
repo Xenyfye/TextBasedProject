@@ -3,6 +3,8 @@ package TextBasedGame;
 public class textBasedGame {
 	
 	public static void main(String[] args) {
-		StartScreen test = new StartScreen();
+		Inventory testInv = new Inventory(5);
+		startScreen Go = new startScreen(testInv);
 	}
+	
 }
